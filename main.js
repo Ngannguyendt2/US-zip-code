@@ -4,12 +4,9 @@ function zipcode(str) {
     {
         return true;
     }
-
         return false;
 
-
 }
-zipcode("03201 - 2150");
-console.log(zipcode());
-zipcode(7892);
-console.log(zipcode());
+
+console.log(zipcode("03501-2150"));
+console.log(zipcode(7892));
